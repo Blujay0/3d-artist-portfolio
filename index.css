@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .project-grid {
@@ -21,7 +21,6 @@ body {
 #alphabet {
   grid-area: alphabet;
 }
-
 #traveler {
   grid-area: traveler;
 }
@@ -33,7 +32,6 @@ body {
 #cube {
   grid-area: cube;
 }
-
 #cup {
   grid-area: cup;
 }
@@ -51,6 +49,7 @@ body {
 }
 
 .project {
+  /* width: 600px; */
   position: relative;
 }
 
@@ -61,7 +60,7 @@ body {
 }
 
 .project .overlay {
-  background-color: rgba(2525, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   position: absolute;
   top: 0;
   left: 0;
@@ -82,4 +81,3 @@ body {
   opacity: 1;
   cursor: pointer;
 }
-
