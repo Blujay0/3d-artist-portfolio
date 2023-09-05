@@ -10,5 +10,3 @@ hamburger.addEventListener("click", () => {
   bar3.classList.toggle("animateBar3");
   mobileNav.classList.toggle("openDrawer")
 });
-
-
